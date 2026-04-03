@@ -1,0 +1,54 @@
+body {
+    font-family: Arial,sans-serif;
+    color: pink;
+    background-color: #ffe6f2;/* нежно-розовый фон*/
+    margin: 0;
+    padding: 20px;
+
+/*Настройки движущего фона*/
+backround-image: url(`images-bg.jpg`);
+background-saze: cover;
+background- slideBackground 40s linear infinite;
+}
+/*Анимация фона*/
+@keyframes slideBackground {
+    0% { backgroun-position: 0 0;}
+    100% { backgroun-position: -1500px 0;}
+}
+/*Стили для остальных элементов (заголовки,кнопки и т.д)*/
+
+header{
+    text-align: center;
+    margin-bottom: 30px;
+}
+section {
+    margin-bottom: 40px;
+}
+hr {
+    border: 1px solid pink;
+    margin: 40px 0;
+}
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+a {
+    color: darkpink;
+    text-decoration: none;
+}
+a:hover {
+    text-decoratin: underline;
+}
+button {
+    padding: 10px 20px;
+    background-color: pink;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+}
+button: img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
